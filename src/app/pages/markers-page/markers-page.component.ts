@@ -5,4 +5,4 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './markers-page.component.html',
 })
-export class MarkersPageComponent { }
+export class MarkersPageComponent {}
