@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "set-envs": "node ./scripts/set-envs.js"
   },
   "private": true,
   "dependencies": {
@@ -29,6 +30,7 @@
     "@types/jasmine": "~5.1.0",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.23",
+    "dotenv": "^16.4.7",
     "jasmine-core": "~5.4.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
